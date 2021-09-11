@@ -1,0 +1,11 @@
+.wrapper {
+    background-color: #93c5ff;
+    display: flex;
+    overflow: hidden;
+    margin-top: 35px;
+    padding: 0;
+}
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}

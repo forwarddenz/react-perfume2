@@ -1,0 +1,210 @@
+* {
+    font-family: "Proxima Nova", Roboto, system-ui, Tahoma, sans-serif;
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.slider__item {
+    height: 570px;
+    flex: 1;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+    position: absolute;
+    color: #fff;
+    width: 175px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 500ms ease-in-out;
+    /* filter: blur(3px); */
+}
+.slide__active {
+    width: 570px;
+    height: 570px;
+    flex: 10;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
+.active {
+    background-color: #74B4FE;
+    color: #FFFFFF;
+}
+.sort {
+    display: flex;
+    align-items: center;
+}
+.sort__label {
+    border-color: white white black white;
+    border-style: solid;
+    border-width: 4.5px;
+    width: 0;
+    height: 0;
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+.sort__label-active {
+    transform: rotate(180deg);
+    margin-top: 7px;
+}
+.content__items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    justify-content: flex-start;
+}
+.cart {
+    height: 400px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cart a {
+    margin-top: 20px;
+    font-size: 25px;
+    border: 1px solid #74B4FE;
+    padding: 15px 25px;
+    background-color: #74B4FE;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.cart a:active {
+    transform: translateY(1px);
+}
+.cart a:hover {
+    background-color: #fff;
+    color: #74B4FE;
+}
+.cart__active {
+    padding: 0 250px;
+}
+.cart__header {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    justify-content: space-between;
+}
+.cart__clear {
+    color: #B6B6B6;
+    cursor: pointer;
+}
+.cart__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    
+}
+.item__text {
+    margin-left: 15px;
+}
+.item__title {
+    font-weight: bold;
+}
+.item__type {
+    color: #B6B6B6;
+}
+.cart__item img {
+    width: 80px;
+}
+.cart__info {
+    display: flex;
+    align-items: center;
+}
+.cart__counter {
+    display: flex;
+}
+.cart__counter div {
+    margin-right: 12px;
+}
+.cart__count {
+    font-weight: bold;
+    margin-top: 5px;
+}
+.cart__decrement, .cart__increment {
+    display: flex;
+    color: #74B4FE;
+    border: 1px solid #74B4FE;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 25px;
+    font-weight: bold;
+    padding: 0 5px 5px 5px;
+    cursor: pointer;
+}
+.cart__decrement:hover {
+    background-color: #74B4FE;
+    color: #fff;
+}
+.cart__increment:hover {
+    background-color: #74B4FE;
+    color: #fff;
+}
+.item__price {
+    font-weight: bold;
+}
+.item__clear {
+    color: #B6B6B6;
+    cursor: pointer;
+}
+.cart__total {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0 40px 0;
+    font-size: 20px;
+}
+.total__count span {
+    font-weight: bold;
+}
+.total__price span {
+    font-weight: bold;
+    color: #74B4FE;
+}
+.cart__bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.cart__bottom a {
+    display: flex;
+    align-items: center;
+    color: #B6B6B6;
+    cursor: pointer;
+    border: 1px solid #B6B6B6;
+    border-radius: 30px;
+    padding: 10px 16px;
+}
+.cart__bottom span {
+    background-color: #74B4FE;
+    color: #fff;
+    border: 1px solid #74B4FE;
+    border-radius: 30px;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+.cart__bottom span:hover {
+    background-color: #fff;
+    color: #74B4FE;
+}

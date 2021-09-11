@@ -1,0 +1,17 @@
+.Category ul {
+    display: flex;
+}
+.Category ul li {
+    padding: 13px 27px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    font-weight: bold;
+    list-style-type: none;
+    margin-right: 10px;
+    margin-left: 5px;
+    font-family: "Proxima Nova", Roboto, system-ui, Tahoma, sans-serif;
+    cursor: pointer;
+}
+.Category ul li:active {
+    transform: translateY(1px);
+}

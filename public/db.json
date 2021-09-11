@@ -1,0 +1,103 @@
+{
+    "perfume": [
+      {
+        "id": 0,
+        "imageUrl": "https://krasparfum24.ru/upload/iblock/bf6/bf65217cdbbe335e67afc447e8bd1443.jpeg",
+        "name": "NINA RICCI Luna Blossom",
+        "type": "Парфюмерная вода",
+        "price": 1499,
+        "category": 0,
+        "popular": 1
+      },
+      {
+        "id": 1,
+        "imageUrl": "https://allureparfum.ru/upload/iblock/316/316f55623947a65446bee81154bf9255.jpg",
+        "name": "Estee Lauder Intuition EDP",
+        "type": "Туалетная вода",
+        "price": 799,
+        "category": 3,
+        "popular": 6
+      },
+      {
+        "id": 2,
+        "imageUrl": "https://brand-and-trend.ru/wa-data/public/shop/products/22/52/15222/images/32000/32000.750x0.jpg",
+        "name": "DIOR MISS DIOR",
+        "type": "Парфюмерная вода",
+        "price": 2499,
+        "category": 1,
+        "popular": 4
+      },
+      {
+        "id": 3,
+        "imageUrl": "https://images.ru.prom.st/656477629_w640_h640_zhenskie-testery-parfyumerii.jpg",
+        "name": "LACOSTE Pour Elle Sparkling",
+        "type": "Туалетная вода",
+        "price": 1199,
+        "category": 2,
+        "popular": 2
+      },
+      {
+        "id": 4,
+        "imageUrl": "https://allureparfum.ru/upload/iblock/1d4/1d4310aa6e6635ccc1a8e74a01e7bcc3.jpg",
+        "name": "Mon Guerlain",
+        "type": "Туалетная вода",
+        "price": 899,
+        "category": 1,
+        "popular": 8
+      },
+      {
+        "id": 5,
+        "imageUrl": "https://static.iledebeaute.ru/files/images/tag/part_4/87776/pre/500_500sb.jpg",
+        "name": "Nina Ricci Luna Eau de Toilette",
+        "type": "Парфюмерная вода",
+        "price": 3999,
+        "category": 4,
+        "popular": 3
+      },
+      {
+        "id": 6,
+        "imageUrl": "https://aromaup.ru/images/detailed/57/01_640_square.jpg",
+        "name": "Guerlain Embruns D'Ylang",
+        "type": "Туалетная вода",
+        "price": 2668,
+        "category": 0,
+        "popular": 5
+      },
+      {
+        "id": 7,
+        "imageUrl": "https://www.aroma-butik.ru/images/categories/goods_full/1563836951_22933_Aubusson_i.jpg",
+        "name": "Versace Versace Man Eau Fraiche",
+        "type": "Туалетная вода",
+        "price": 2199,
+        "category": 3,
+        "popular": 2
+      },
+      {
+        "id": 8,
+        "imageUrl": "https://avatars.mds.yandex.net/get-mpic/1567763/img_id2084740327340139368.jpeg/9hq",
+        "name": "Castelbajac Castelbajac Homme",
+        "type": "Парфюмерная вода",
+        "price": 2999,
+        "category": 4,
+        "popular": 4
+      },
+      {
+        "id": 9,
+        "imageUrl": "https://avatars.mds.yandex.net/get-mpic/4497593/img_id8192577478689863003.jpeg/4hq",
+        "name": "Versace Versace Man Eau Fraiche",
+        "type": "Туалетная вода",
+        "price": 1199,
+        "category": 2,
+        "popular": 3
+      },
+      {
+        "id": 10,
+        "imageUrl": "https://allureparfum.ru/upload/iblock/580/5808bb585125ade1bb3906d0f36b8a9c.jpg",
+        "name": "Narciso Rodriguez For Her Fleur Musc",
+        "type": "Парфюмерная вода",
+        "price": 2668,
+        "category": 2,
+        "popular": 1
+      }
+    ]
+  }
